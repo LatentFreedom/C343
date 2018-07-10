@@ -1,0 +1,3 @@
+I implemented flood with simple if statements. The function flood.py will check if the block adjacent to it is the same color as the color chosen. If the color is indeed the same, the block will be added to the flood list and the player can then move on to choose another color. The flood.py will run through and check each side adjacent and then stop until the next color is chosen.
+
+When I went back and changed the code to improve my flood function, I took out the imbedded ifs in each if statement and made them into one line with ‘ands’. This helped improve the function time by processing the one line instead of three if statement lines.
